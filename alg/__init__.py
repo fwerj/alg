@@ -69,7 +69,7 @@ def prim(graph):
     ...     frozenset({"e", "g"}): 9,
     ...     frozenset({"f", "g"}): 11,
     ... }
-    >>> prim(a) # doctest:
+    >>> prim(a) # doctest: +SKIP
     [
         frozenset({"a", "d"}),
         frozenset({"f", "d"}),
